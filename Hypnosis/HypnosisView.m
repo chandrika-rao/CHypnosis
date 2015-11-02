@@ -23,15 +23,24 @@
 
 -(void)drawRect:(CGRect)rect
 {
+    self.maxSize = sqrt((self.frame.size.width * self.frame.size.width) + (self.frame.size.height * self.frame.size.height));
+    self.minSize = 10.0;
+    self.space = 10.0;
+    for (float currentRadius = self.maxSize; currentRadius >= self.minSize; currentRadius -= self.space)
+    {
+        
+        UIBezierPath *circle = [UIBezierPath bezierPathWithArcCenter:CGPointMake(self.frame.size.width/2,self.frame.size.height/2) radius: currentRadius startAngle:0 endAngle:100 clockwise:YES];
     
-    UIBezierPath *circle = [UIBezierPath bezierPathWithArcCenter:CGPointMake(self.frame.size.width/2,self.frame.size.height/2) radius:60 startAngle:0 endAngle:100 clockwise:YES];
-    
-    
-    [[UIColor blackColor] setStroke];
-    [[UIColor greenColor] setFill];
-    
-    circle.lineWidth = 5.0;
-    [circle fill];
-    [circle stroke];
+        //to give color for outer bound
+        [[UIColor blackColor] setStroke];
+        
+        //to fill color
+        //[[UIColor greenColor] setFill];
+        
+        circle.lineWidth = 5.0;
+        
+        //[circle fill];
+        [circle stroke];
+    }
 }
 @end

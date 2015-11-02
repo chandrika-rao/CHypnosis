@@ -10,4 +10,6 @@
 
 @interface HypnosisView : UIView
 
+@property (nonatomic, assign) float space, maxSize, minSize;
+
 @end

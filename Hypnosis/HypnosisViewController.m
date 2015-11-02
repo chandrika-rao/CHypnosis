@@ -29,7 +29,6 @@
     HypnosisView *hypnosisView = [[HypnosisView alloc] init];
     self.view = hypnosisView;
     self.view.frame = self.view.bounds;
-    
 }
 
 @end
