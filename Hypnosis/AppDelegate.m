@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-
+#import "HypnosisViewController.h"
 @interface AppDelegate ()
 
 @end
@@ -16,7 +16,12 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
+    HypnosisViewController *hypnosisViewController = [[HypnosisViewController alloc] init];
+    self.window.rootViewController = hypnosisViewController;
+    [self.window makeKeyAndVisible];
+    self.window.backgroundColor = [UIColor whiteColor];
+    
     return YES;
 }
 

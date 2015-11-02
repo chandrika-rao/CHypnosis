@@ -9,12 +9,14 @@
 /* Begin PBXBuildFile section */
 		24C05D291BE745A000B82C87 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 24C05D281BE745A000B82C87 /* main.m */; };
 		24C05D2C1BE745A000B82C87 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 24C05D2B1BE745A000B82C87 /* AppDelegate.m */; };
-		24C05D2F1BE745A000B82C87 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24C05D2E1BE745A000B82C87 /* ViewController.m */; };
-		24C05D321BE745A000B82C87 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24C05D301BE745A000B82C87 /* Main.storyboard */; };
-		24C05D341BE745A000B82C87 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24C05D331BE745A000B82C87 /* Assets.xcassets */; };
-		24C05D371BE745A000B82C87 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24C05D351BE745A000B82C87 /* LaunchScreen.storyboard */; };
 		24C05D421BE745A000B82C87 /* HypnosisTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 24C05D411BE745A000B82C87 /* HypnosisTests.m */; };
 		24C05D4D1BE745A000B82C87 /* HypnosisUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 24C05D4C1BE745A000B82C87 /* HypnosisUITests.m */; };
+		24C05D5C1BE7461E00B82C87 /* HypnosisView.m in Sources */ = {isa = PBXBuildFile; fileRef = 24C05D5B1BE7461E00B82C87 /* HypnosisView.m */; settings = {ASSET_TAGS = (); }; };
+		24C05D5D1BE7461E00B82C87 /* HypnosisView.m in Sources */ = {isa = PBXBuildFile; fileRef = 24C05D5B1BE7461E00B82C87 /* HypnosisView.m */; settings = {ASSET_TAGS = (); }; };
+		24C05D5E1BE7461E00B82C87 /* HypnosisView.m in Sources */ = {isa = PBXBuildFile; fileRef = 24C05D5B1BE7461E00B82C87 /* HypnosisView.m */; settings = {ASSET_TAGS = (); }; };
+		24C05D611BE7464300B82C87 /* HypnosisViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24C05D601BE7464300B82C87 /* HypnosisViewController.m */; settings = {ASSET_TAGS = (); }; };
+		24C05D621BE7464300B82C87 /* HypnosisViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24C05D601BE7464300B82C87 /* HypnosisViewController.m */; settings = {ASSET_TAGS = (); }; };
+		24C05D631BE7464300B82C87 /* HypnosisViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24C05D601BE7464300B82C87 /* HypnosisViewController.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,11 +41,6 @@
 		24C05D281BE745A000B82C87 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		24C05D2A1BE745A000B82C87 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		24C05D2B1BE745A000B82C87 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		24C05D2D1BE745A000B82C87 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		24C05D2E1BE745A000B82C87 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		24C05D311BE745A000B82C87 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		24C05D331BE745A000B82C87 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		24C05D361BE745A000B82C87 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		24C05D381BE745A000B82C87 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		24C05D3D1BE745A000B82C87 /* HypnosisTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HypnosisTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		24C05D411BE745A000B82C87 /* HypnosisTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HypnosisTests.m; sourceTree = "<group>"; };
@@ -51,6 +48,10 @@
 		24C05D481BE745A000B82C87 /* HypnosisUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HypnosisUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		24C05D4C1BE745A000B82C87 /* HypnosisUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HypnosisUITests.m; sourceTree = "<group>"; };
 		24C05D4E1BE745A000B82C87 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		24C05D5A1BE7461E00B82C87 /* HypnosisView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HypnosisView.h; sourceTree = "<group>"; };
+		24C05D5B1BE7461E00B82C87 /* HypnosisView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HypnosisView.m; sourceTree = "<group>"; };
+		24C05D5F1BE7464300B82C87 /* HypnosisViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HypnosisViewController.h; sourceTree = "<group>"; };
+		24C05D601BE7464300B82C87 /* HypnosisViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HypnosisViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,11 +104,10 @@
 			children = (
 				24C05D2A1BE745A000B82C87 /* AppDelegate.h */,
 				24C05D2B1BE745A000B82C87 /* AppDelegate.m */,
-				24C05D2D1BE745A000B82C87 /* ViewController.h */,
-				24C05D2E1BE745A000B82C87 /* ViewController.m */,
-				24C05D301BE745A000B82C87 /* Main.storyboard */,
-				24C05D331BE745A000B82C87 /* Assets.xcassets */,
-				24C05D351BE745A000B82C87 /* LaunchScreen.storyboard */,
+				24C05D5F1BE7464300B82C87 /* HypnosisViewController.h */,
+				24C05D601BE7464300B82C87 /* HypnosisViewController.m */,
+				24C05D5A1BE7461E00B82C87 /* HypnosisView.h */,
+				24C05D5B1BE7461E00B82C87 /* HypnosisView.m */,
 				24C05D381BE745A000B82C87 /* Info.plist */,
 				24C05D271BE745A000B82C87 /* Supporting Files */,
 			);
@@ -243,9 +243,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				24C05D371BE745A000B82C87 /* LaunchScreen.storyboard in Resources */,
-				24C05D341BE745A000B82C87 /* Assets.xcassets in Resources */,
-				24C05D321BE745A000B82C87 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,9 +267,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				24C05D2F1BE745A000B82C87 /* ViewController.m in Sources */,
+				24C05D5C1BE7461E00B82C87 /* HypnosisView.m in Sources */,
 				24C05D2C1BE745A000B82C87 /* AppDelegate.m in Sources */,
 				24C05D291BE745A000B82C87 /* main.m in Sources */,
+				24C05D611BE7464300B82C87 /* HypnosisViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,7 +278,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				24C05D621BE7464300B82C87 /* HypnosisViewController.m in Sources */,
 				24C05D421BE745A000B82C87 /* HypnosisTests.m in Sources */,
+				24C05D5D1BE7461E00B82C87 /* HypnosisView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,7 +288,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				24C05D631BE7464300B82C87 /* HypnosisViewController.m in Sources */,
 				24C05D4D1BE745A000B82C87 /* HypnosisUITests.m in Sources */,
+				24C05D5E1BE7461E00B82C87 /* HypnosisView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,25 +308,6 @@
 			targetProxy = 24C05D491BE745A000B82C87 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		24C05D301BE745A000B82C87 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				24C05D311BE745A000B82C87 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		24C05D351BE745A000B82C87 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				24C05D361BE745A000B82C87 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		24C05D4F1BE745A000B82C87 /* Debug */ = {
